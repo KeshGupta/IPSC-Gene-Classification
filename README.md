@@ -10,17 +10,17 @@
   
   <img width="395" height="305" alt="AUC_graph_actual" src="https://github.com/user-attachments/assets/b0f12583-f6ea-46ce-a44a-44c0de7e44ca" />
   
-  "graph of AUC vs Timepoint separated into bins of similar population"
+  IMG_1: graph of AUC vs Timepoint separated into bins of similar population
 
   Additionally, even though I excluded the marker genes Biddy's paper found, the top dead-end predictor genes matched Fibroblast identity, a core finding in Biddy's paper. Across runs, dead-end predictors consistently include fibroblast/ECM genes (Pdgfra, Fgf7, Sdc4, Adamts1, Col5a2, Angptl2), essentially reconstructing the bifurcating trajectory and independently confirming the two-fate structure. 
   
 <img width="135" height="168" alt="Screenshot 2026-08-11 at 9 55 25 PM" src="https://github.com/user-attachments/assets/43e2236a-8343-4b16-8fbb-51efcafdeea8" />
 
-  "screenshot of top Dead-end predictors from one classifier run. Fibroblast genes Col5a2 and Pdgfra are present"
+  IMG_2: screenshot of top Dead-end predictors from one classifier run. Fibroblast genes Col5a2 and Pdgfra are present
 
   <img width="568" height="404" alt="cell_type_paga" src="https://github.com/user-attachments/assets/89d88ae9-b837-4b6f-9955-f7b15e277722" />
   
-  "image of textbook Y shape demonstrating two-fate structure. Other relationships are much smaller and characterized by comparatively weaker lines on PAGA graph"
+  IMG_3: image of textbook Y shape demonstrating two-fate structure. Other relationships are much smaller and characterized by comparatively weaker lines on PAGA graph
 
 
 # How to Run
