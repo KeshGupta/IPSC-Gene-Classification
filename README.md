@@ -2,6 +2,7 @@
 
 # Context
   In 2018 Biddy et al used CellTagging to see whether Fibroblast cells that could successfully reprogram (iEP) expressed certain genes in it's early stages that unsuccessful (dead-end) cells did not. The results of his study concluded that successfully reprogramed cells did express different genes in the fibroblast stage that could predict whether a cell would become reprogramed or not, such as Apoa1, Cdh1, and Mettl7a1. 
+  My research in the Bashor Lab focuses on direct cellular reprogramming, where I work experimentally with Yamanaka-factor delivery to convert cells between identities. This project is the computational counterpart to that bench work: an effort to understand, from single-cell data alone, what determines whether a cell successfully reprograms.
   I expanded on Biddy's study and built a classifier that could predict iEP vs dead-end results from early gene expression. My goal was to recreate Biddy's pipeline without CellTagging and use Cellrank for early Fibroblast labels. I then trained a classifier to predict fate from early gene expression without Biddy's marker genes (Apoa1, Cdh1, Col1a2, etc). 
 
 
@@ -27,6 +28,7 @@
 1. Download the mtx.gz files from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99915
 2. Download libraries: pip install scanpy numpy scipy leidenalg igraph harmonypy cellrank 
 3. Run pipeline, Note: I needed to use Colab on my macbook to run this as I didn't have enough RAM normally
+4. Images folder has all the graphs and pictures from the code
 
 
 # Limitations
